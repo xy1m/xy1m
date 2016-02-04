@@ -1,22 +1,21 @@
-baseurl = "https://crazymole.github.io/"
+baseurl = "https://yourdomain.com/"
 languageCode = "en-us"
-title = "George Playground"
+title = "John Doe's blog"
 # Define how many pages appear per site
-paginate = 5
+paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
-disqusShortname = "excareers"
+disqusShortname = "spf13"
 theme = "hugo-minimalist-theme"
 
 [params]
-    site_author = "George Zhang"
-    site_sitekeywords = "Algorithms Leetcode Software Engineer"
-    site_description = "George's blog about code, thoughts and life"
-    location = "Waterloo, ON, Canada"
+    site_author = "John Doe"
+    site_description = "The awesome blog of John Doe."
+    location = "Earth"
     # All paths are relative to the baseurl. Put your files
     # somewhere in the static folder.
-    avatar = "images/coding-mole.gif"
-    header_background = "images/cover-coding.jpg"
-    header_title = "George Playground"
+    avatar = "img/profile-image.png"
+    header_background = "img/desk.jpg"
+    header_title = "Customizable header title"
     copyright = "Powered by [Hugo](http://gohugo.io)."
 
     # Enable gogle analytics by entering your tracking code
@@ -26,11 +25,11 @@ theme = "hugo-minimalist-theme"
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
     # create automatically.
-    twitter   = ""
+    twitter   = "spf13"
     facebook  = ""
-    linkedin  = "zhangzhpeng"
+    linkedin  = ""
     behance   = ""
     dribbble  = ""
     instagram = ""
-    github    = "CrazyMole"
+    github    = "digitalcraftsman"
     gplus     = ""
