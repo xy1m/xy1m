@@ -1,0 +1,12 @@
+<aside class="col-md-3">
+	<div class="thumbnail">
+		<img class="img-circle img-responsive" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="{{ .Site.Params.site_author }}">
+		<div class="text-center">
+			<p class="name"><strong>{{ .Site.Params.site_author }}</strong></p>
+			<p class="address">{{ .Site.Params.location }}</p>
+			<ul class="list-inline">
+				{{ partial "social" . }}
+			</ul>
+		</div>
+	</div>
+</aside>

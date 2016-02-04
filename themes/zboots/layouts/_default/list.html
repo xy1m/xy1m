@@ -1,0 +1,14 @@
+{{ partial "header" . }}
+<div class="container clearfix">
+	<div class="row">
+		{{ partial "author" . }}
+		<main role="main" class="col-md-9">
+		{{ $paginator := .Paginate .Data.Pages }}
+		{{ range $paginator.Pages }}
+		{{ .Render "summary" }}
+		{{ end }}
+		{{ partial "pagination" . }}
+		</main>
+	</div>
+</div>
+{{ partial "footer" . }}

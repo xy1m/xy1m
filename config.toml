@@ -1,31 +1,21 @@
 baseurl = "https://crazymole.github.io/"
 languageCode = "en-us"
 title = "George Playground"
-# Define how many pages appear per site
 paginate = 5
-# Enable comments powered by Disqus by entering your disqus shortname
 disqusShortname = "excareers"
-theme = "hugo-minimalist-theme"
+theme = "zboots"
 
 [params]
     site_author = "George Zhang"
     site_sitekeywords = "Algorithms Leetcode Software Engineer"
     site_description = "George's blog about code, thoughts and life"
     location = "Waterloo, ON, Canada"
-    # All paths are relative to the baseurl. Put your files
-    # somewhere in the static folder.
     avatar = "images/coding-mole.gif"
     header_background = "images/cover-coding.jpg"
     header_title = "George Playground"
     copyright = "Powered by [Hugo](http://gohugo.io)."
-
-    # Enable gogle analytics by entering your tracking code
     google_analytics = ""
-
 [social]
-    # Add your social network accounts to the profile section on the left
-    # by entering your username. The links to your account will be
-    # create automatically.
     twitter   = ""
     facebook  = ""
     linkedin  = "zhangzhpeng"

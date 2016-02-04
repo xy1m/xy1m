@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+<div class="container clearfix">
+    {{ partial "author" . }}
+    <main role="main" class="col-md-9">
+    <article class="post">
+        {{ partial "article-header" . }}
+        {{ .Content}}
+        {{ partial "article-share" . }}
+    </article>
+    <div class="comments">
+        <h3>{{ .Site.Data.l10n.comments.comments }}</h3>
+        {{ template "_internal/disqus.html" . }}
+    </div>
+    </main>
+</div>
+{{ partial "footer" . }}

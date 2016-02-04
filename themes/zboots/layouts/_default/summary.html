@@ -1,0 +1,6 @@
+<article class="post">
+	{{ partial "article-header" . }}
+	<p>{{ printf "%s" .Summary | markdownify }}&hellip;</p>
+	<a class="btn btn-success" href="{{ .Permalink }}" title="{{ .Title }}">Read more</a>
+</br>
+</article>
