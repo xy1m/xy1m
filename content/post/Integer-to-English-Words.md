@@ -1,6 +1,7 @@
 +++
 date = "2016-02-03T22:28:08-05:00"
-tags = ["leetcode","algorithm"]
+tags = ["leetcode","math","string"]
+categories =["leetcode"]
 title = "Inter to English Words"
 
 +++
@@ -8,11 +9,11 @@ Convert a non-negative integer to its english words representation. Given input 
 <!--more-->
 For example,
 
-```
-123 -> "One Hundred Twenty Three"
-12345 -> "Twelve Thousand Three Hundred Forty Five"
-1234567 -> "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
-```
+123 -> `"One Hundred Twenty Three"`
+
+12345 -> `"Twelve Thousand Three Hundred Forty Five"`
+
+1234567 -> `"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"`
 
 ```
 public class Solution {
