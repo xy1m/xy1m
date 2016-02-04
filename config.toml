@@ -1,11 +1,35 @@
-baseurl = "http://creazymole.github.io/"
-title = "George's playground"
-author = "George Zhang"
-copyright = "Copyright (c) 2016, George Zhang; all rights reserved."
-canonifyurls = true
+baseurl = "https://crazymole.github.io/"
+languageCode = "en-us"
+title = "George Playground"
+# Define how many pages appear per site
 paginate = 5
+# Enable comments powered by Disqus by entering your disqus shortname
+disqusShortname = "excareers"
+theme = "hugo-minimalist-theme"
 
 [params]
-  bio = "George's blog about code,thoughts and life."
-  disqusShortname = "excareers" # optional
-  toc = true # optional, When set to TRUE this parameter, table of contents appears in all articles.
+    site_author = "George Zhang"
+    site_description = "George's blog about code, thoughts and life"
+    location = "Waterloo, ON, Canada"
+    # All paths are relative to the baseurl. Put your files
+    # somewhere in the static folder.
+    avatar = "images/coding-mole.gif"
+    header_background = "images/cover-coding.jpg"
+    header_title = "George Playground"
+    copyright = "Powered by [Hugo](http://gohugo.io)."
+
+    # Enable gogle analytics by entering your tracking code
+    google_analytics = ""
+
+[social]
+    # Add your social network accounts to the profile section on the left
+    # by entering your username. The links to your account will be
+    # create automatically.
+    twitter   = ""
+    facebook  = ""
+    linkedin  = "zhangzhpeng"
+    behance   = ""
+    dribbble  = ""
+    instagram = ""
+    github    = "CrazyMole"
+    gplus     = ""
