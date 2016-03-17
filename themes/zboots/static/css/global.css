@@ -1,0 +1,17 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.footer {
+    position: absolute;
+    bottom: 0px;
+    height: auto;
+    width: 100%;
+}

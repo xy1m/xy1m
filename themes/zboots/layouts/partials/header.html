@@ -18,35 +18,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic">
     <link rel="icon" href="{{ .Site.BaseURL }}app-logo.png">
     <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}app-logo.png">
-    <style>
-      /* .bg {
-        background: url({{ .Site.BaseURL }}{{ .Site.Params.header_background }}) no-repeat center center;
-        background-size: cover;
-        width: 100%;
-        height:auto;
-        z-index: -1;
-      }
-      .jumbotron h1 {
-        color: #eee;
-      } */
-      html {
-        position: relative;
-        min-height: 100%;
-      }
-      body {
-        /* Margin bottom by footer height */
-        margin-top: 60px;
-        margin-bottom: 60px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-      }
-      .footer {
-          position: absolute;
-          bottom: 0px;
-          height: auto;
-          width: 100%;
-      }
-    </style>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/global.css">
   </head>
   <body>
     {{ partial "navbar" . }}
