@@ -1,6 +1,6 @@
 baseurl = "https://crazymole.github.io/"
 languageCode = "en-us"
-title = "心猿译码"
+title = "新猿一码"
 paginate = 5
 disqusShortname = "excareers"
 theme = "zboots"
@@ -12,7 +12,7 @@ theme = "zboots"
     location = "Waterloo, ON, Canada"
     avatar = "images/coding-mole.gif"
     header_background = "images/cover-coding.jpg"
-    header_title = "心猿译码"
+    header_title = "新猿一码"
     copyright = "Powered by [Hugo](http://gohugo.io)."
     google_analytics = ""
 [social]
