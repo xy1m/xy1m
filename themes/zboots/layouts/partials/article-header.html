@@ -7,6 +7,6 @@
 		{{ range $i, $v := .Params.tags }}
 		<li><a class="label label-default" href="{{ $.Site.BaseURL }}tags/{{ $v | urlize }}">{{ $v | lower }}</a></li>
 		{{ end }}
+		{{ end }}
 	</ul>
-	{{ end }}
 </footer>
