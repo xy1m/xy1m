@@ -15,3 +15,10 @@ body {
     height: auto;
     width: 100%;
 }
+a.backtotop {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+}

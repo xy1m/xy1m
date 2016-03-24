@@ -6,9 +6,12 @@
 <script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/highlight.js/9.1.0/highlight.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/backtotop.js"></script>
 <script>
-$('pre').each(function(i, block) {
-  hljs.highlightBlock(block);
+$(document).ready(function(){
+	$('pre').each(function(i, block) {
+	  hljs.highlightBlock(block);
+	});
 });
 </script>
 {{ with .Site.Params.google_analytics }}
