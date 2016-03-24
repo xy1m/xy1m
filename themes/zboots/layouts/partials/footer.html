@@ -3,12 +3,14 @@
     <p class="text-center"><a href="{{ .Site.BaseURL }}post/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a> &copy; {{ .Now.Format "2006" }} &middot; {{ .Site.Params.copyright | markdownify }}</p>
   </div>
 </footer>
-
 <script src="https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/highlight.js/9.1.0/highlight.min.js"></script>
-
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+$('pre').each(function(i, block) {
+  hljs.highlightBlock(block);
+});
+</script>
 {{ with .Site.Params.google_analytics }}
 {{ "<!-- Google Analytics -->" | safeHTML }}
 <script>

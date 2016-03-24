@@ -2,7 +2,7 @@
 	<div class="row">
 		{{ partial "author" . }}
 		<main role="main" class="col-md-9">
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+		{{ $paginator := .Paginate .Data.Pages }}
 		{{ range $paginator.Pages }}
 		{{ .Render "summary" }}
 		{{ end }}
