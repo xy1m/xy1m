@@ -5,13 +5,10 @@ tags = ["markdown"]
 title = "Markdown基本语法"
 
 +++
-
 > Markdown 是一种轻量级标记语言，创始人为約翰·格魯伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。[3]这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
 
 以上摘自维基百科，既然你已经看到了这篇文章，就不用过多介绍Markdown了
 [John Gruber](https://daringfireball.net/projects/markdown/basics)
-
-<p class="text-warning"><span class="fa fa-warning">注意空格</p>
 
 ## 标题
 标题前输入多个#对应级别的HTML标题，h1和h2可在标题的下一行加任意数量=或-实现
@@ -96,9 +93,9 @@ _我是斜体_
 ```
 
 ## 图片
-![alt信息](/images/avatar.jpg "标题")
+![alt信息](/img/avatar.jpg "标题")
 ```
-![alt信息](/images/avatar.jpg "标题")
+![alt信息](/img/avatar.jpg "标题")
 ```
 
 ## 链接
@@ -117,7 +114,7 @@ _我是斜体_
 
 [g]:http://google.com "Google"
 [y]:http://search.yahoo.com "Yahoo serach"
-[m]:/images/avatar.jpg "mole"
+[m]:/img/avatar.jpg "mole"
 
 ```
 [链接文字][索引id]
@@ -129,7 +126,7 @@ _我是斜体_
 
 `[g]:http://google.com "Google"`
 `[y]:http://search.yahoo.com "Yahoo serach"`
-`[m]:/images/avatar.jpg "mole"`
+`[m]:/img/avatar.jpg "mole"`
 ```
 
 ## 自动链接

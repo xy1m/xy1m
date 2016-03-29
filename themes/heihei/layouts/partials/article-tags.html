@@ -1,0 +1,7 @@
+<div class="panel panel-default">
+	<div class="panel-body">
+		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+		<a class="label label-default" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize }}">{{ $name }}</a>
+		{{ end }}
+	</div>
+</div>

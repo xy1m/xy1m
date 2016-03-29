@@ -1,0 +1,19 @@
+{{ with .Site.Social.twitter }}
+<li><a href="//twitter.com/{{.}}" target="_blank" title="Twitter"><i class="fa fa-twitter" ></i></a></li>
+{{ end }}
+{{ with .Site.Social.facebook }}
+<li><a href="//facebook.com/{{.}}" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+{{ end }}
+{{ with .Site.Social.linkedin }}
+<li><a href="//linkedin.com/in/{{.}}" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+{{ end }}
+{{ with .Site.Social.instagram }}
+<li><a href="//instagram.com/{{.}}" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+{{ end }}
+{{ with .Site.Social.github }}
+<li><a href="//github.com/{{.}}" target="_blank" title="Github"><i class="fa fa-github"></i></a></li>
+{{ end }}
+{{ with .Site.Social.gplus }}
+<li><a href="//plus.google.com/+{{.}}" target="_blank" title="Google+"><i class="fa fa-gplus"></i></a></li>
+{{ end }}
+<li><a href="{{ .Site.BaseURL }}post/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></li>

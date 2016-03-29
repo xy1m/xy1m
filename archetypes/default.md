@@ -1,4 +1,0 @@
-+++
-tags = ["leetcode"]
-categories =["leetcode"]
-+++

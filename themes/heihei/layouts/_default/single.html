@@ -1,0 +1,21 @@
+{{ partial "header" . }}
+<div class="container clearfix">
+    <div class="row">
+        <main role="main" class="col-md-9">
+        <article>
+            {{ partial "article-header" . }}
+            {{ .Content}}
+            {{ partial "article-share" . }}
+        </article>
+        <div>
+            {{ template "_internal/disqus.html" . }}
+        </div>
+        </main>
+        <aside class="col-md-3">
+            {{ partial "author" . }}
+            {{ partial "article-tags" . }}
+        </aside>
+    </div>
+    <a href="#" class="backtotop"><span class="fa fa-rocket fa-3x"></span></a>
+</div>
+{{ partial "footer" . }}

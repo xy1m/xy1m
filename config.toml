@@ -1,20 +1,27 @@
 baseurl = "https://crazymole.github.io/"
-languageCode = "en-us"
-title = "新猿一码"
-paginate = 5
-disqusShortname = "excareers"
-theme = "zboots"
 
+title = "新猿一码"
+languageCode = "zh-CN"
+paginate = 5
+theme = "heihei"
+
+copyright = "Powered by [Hugo](http://gohugo.io)."
+disqusShortname = "excareers"
+googleAnalytics = ""
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
 [params]
-    site_author = "George Zhang"
-    site_sitekeywords = "Algorithms Leetcode Software Engineer"
-    site_description = "George's blog about code, thoughts and life"
+    keywords = "Algorithms Leetcode Software Engineer"
+    description = "George blog about code, thoughts and life"
+[author]
+    name = "George Zhang"
     location = "Waterloo, ON, Canada"
-    avatar = "images/coding-mole.gif"
-    header_background = "images/cover-coding.jpg"
-    header_title = "新猿一码"
-    copyright = "Powered by [Hugo](http://gohugo.io)."
-    google_analytics = ""
+    avatar = "img/coding-mole.gif"
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
 [social]
     twitter   = ""
     facebook  = ""
