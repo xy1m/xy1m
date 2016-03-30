@@ -2,7 +2,7 @@ baseurl = "https://crazymole.github.io/"
 
 title = "新猿一码"
 languageCode = "zh-CN"
-paginate = 5
+paginate = 10
 theme = "heihei"
 
 copyright = "Powered by [Hugo](http://gohugo.io)."

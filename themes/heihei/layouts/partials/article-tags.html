@@ -1,7 +1,21 @@
 <div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">{{ .Site.Data.I18N.tag}}</h3>
+	</div>
 	<div class="panel-body">
 		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
 		<a class="label label-default" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize }}">{{ $name }}</a>
 		{{ end }}
 	</div>
 </div>
+
+<div class="panel panel-default">
+	<div class="panel-heading">{{ .Site.Data.I18N.recent}}</div>
+	<ul class="list-group">
+	{{ range first 10 .Site.Pages }}
+	    <a class="list-group-item" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+	{{ end }}
+	</ul>
+</div>
+
+
