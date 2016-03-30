@@ -9,7 +9,7 @@
 <script src="{{ .Site.BaseURL }}js/backtotop.js"></script>
 <script>
 $(document).ready(function(){
-	$('pre').each(function(i, block) {
+	$('code').parents('pre').each(function(i, block) {
 	  hljs.highlightBlock(block);
 	});
 });

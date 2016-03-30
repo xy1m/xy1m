@@ -5,6 +5,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
+  margin-top: 90px;
   margin-bottom: 60px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -23,4 +24,11 @@ a.backtotop {
   z-index: 999;
   right: 20px;
   bottom: 20px;
+}
+
+.img2txt {
+    font-size: 5pt;
+    letter-spacing: 3px;
+    line-height: 5pt;
+    font-weight: bold;
 }
