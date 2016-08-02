@@ -1,7 +1,7 @@
 +++
 date = "2016-02-04T00:17:36-05:00"
 tags = ["leetcode","math"]
-categories =["leetcode"]
+categories =["algorithms"]
 title = "Number of Digit One"
 
 +++

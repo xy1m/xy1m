@@ -1,7 +1,7 @@
 +++
 date = "2016-02-04T00:15:13-05:00"
 tags = ["leetcode","string"]
-categories =["leetcode"]
+categories =["algorithms"]
 title = "Reverse Words in a String"
 
 +++

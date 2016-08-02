@@ -2,7 +2,7 @@
 categories = ["language"]
 date = "2016-03-21T14:32:43-04:00"
 tags = ["language"]
-title = "Python 2 基本语法"
+title = "Python 2 Basic"
 
 +++
 > 

@@ -1,7 +1,7 @@
 +++
 date = "2016-02-04T00:13:52-05:00"
 tags = ["leetcode","string"]
-categories =["leetcode"]
+categories =["algorithms"]
 title = "Surrounded Regions"
 
 +++

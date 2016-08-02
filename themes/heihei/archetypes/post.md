@@ -1,5 +1,4 @@
 +++
-keywords = []
 tags = []
 categories = []
 +++

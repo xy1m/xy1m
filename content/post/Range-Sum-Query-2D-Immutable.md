@@ -1,7 +1,7 @@
 +++
 date = "2016-02-04T00:16:24-05:00"
 tags = ["leetcode","dynamic programming"]
-categories =["leetcode"]
+categories =["algorithms"]
 title = "Range Sum Query 2D Immutable"
 
 +++

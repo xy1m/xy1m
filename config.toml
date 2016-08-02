@@ -1,7 +1,7 @@
 baseurl = "https://crazymole.github.io/"
 
-title = "新猿一码"
-languageCode = "zh-CN"
+title = "Crazy mole"
+languageCode = "en-US"
 paginate = 10
 theme = "heihei"
 
@@ -17,7 +17,7 @@ googleAnalytics = ""
     description = "George blog about code, thoughts and life"
 [author]
     name = "George Zhang"
-    location = "Waterloo, ON, Canada"
+    location = "Sunnyvale, CA, USA"
     avatar = "img/coding-mole.gif"
 [sitemap]
   changefreq = "monthly"

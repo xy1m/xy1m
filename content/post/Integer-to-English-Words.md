@@ -1,7 +1,7 @@
 +++
 date = "2016-02-03T22:28:08-05:00"
 tags = ["leetcode","math","string"]
-categories =["leetcode"]
+categories =["algorithms"]
 title = "Inter to English Words"
 
 +++
