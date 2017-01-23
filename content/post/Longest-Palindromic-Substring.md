@@ -3,7 +3,7 @@ date = "2016-02-04T00:17:00-05:00"
 tags = ["leetcode","string"]
 categories =["algorithms"]
 title = "Longest Palindromic Substring"
-
+author="zhenpeng"
 +++
 Given a string S, find the longest palindromic substring in S. You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
 <!--more-->

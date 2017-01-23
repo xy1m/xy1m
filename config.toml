@@ -1,9 +1,9 @@
 baseurl = "https://crazymole.github.io/"
 
-title = "Crazy mole"
+title = "xy1m"
 languageCode = "en-US"
 paginate = 10
-theme = "heihei"
+theme = "xy1m"
 
 copyright = "Powered by [Hugo](http://gohugo.io)."
 disqusShortname = "excareers"
@@ -14,13 +14,12 @@ googleAnalytics = ""
     tag = "tags"
 [params]
     keywords = "Algorithms Leetcode Software Engineer"
-    description = "George blog about code, thoughts and life"
+    description = "About code, thoughts and life"
 [author]
-    name = "George Zhang"
-    location = "Sunnyvale, CA, USA"
-    avatar = "img/coding-mole.gif"
+    name = "Zhenpeng"
+    homepage = "http://xy1m.github.io/"
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "dayly"
   priority = 0.5
 [social]
     twitter   = ""
@@ -29,5 +28,5 @@ googleAnalytics = ""
     behance   = ""
     dribbble  = ""
     instagram = ""
-    github    = "CrazyMole"
+    github    = "xy1m"
     gplus     = ""

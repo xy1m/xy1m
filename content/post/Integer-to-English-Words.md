@@ -3,7 +3,7 @@ date = "2016-02-03T22:28:08-05:00"
 tags = ["leetcode","math","string"]
 categories =["algorithms"]
 title = "Inter to English Words"
-
+author="zhenpeng"
 +++
 Convert a non-negative integer to its english words representation. Given input is guaranteed to be less than 2^31 - 1.
 <!--more-->

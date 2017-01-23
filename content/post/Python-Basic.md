@@ -3,7 +3,7 @@ categories = ["language"]
 date = "2016-03-21T14:32:43-04:00"
 tags = ["language"]
 title = "Python 2 Basic"
-
+author="zhenpeng"
 +++
 > 
 Python是一种简单易学，功能强大的编程语言，它有高效率的高层数据结构，简

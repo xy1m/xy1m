@@ -3,7 +3,7 @@ categories = ["algorithms"]
 date = "2016-08-01T18:20:14-07:00"
 tags = ["bit","hackerrank"]
 title = "Xor sequence"
-
+author="zhenpeng"
 +++
 
 We can easily find a pattern `F(n)=0^1^...^n`

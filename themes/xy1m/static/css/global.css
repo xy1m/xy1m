@@ -1,0 +1,42 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    height: auto;
+    width: 100%;
+}
+
+a.backtotop {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+}
+
+.img2txt {
+    font-size: 5pt;
+    letter-spacing: 3px;
+    line-height: 5pt;
+    font-weight: bold;
+}
+
+.cover {
+  display: block;
+  background-image: url("/img/404.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+}
