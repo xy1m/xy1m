@@ -7,7 +7,7 @@ theme = "xy1m"
 
 copyright = "Powered by [Hugo](http://gohugo.io)."
 disqusShortname = "excareers"
-googleAnalytics = ""
+googleAnalytics = "UA-68632304-1"
 
 [taxonomies]
     category = "categories"
