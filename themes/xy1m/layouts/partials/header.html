@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     {{ .Hugo.Generator }}
-    <title>{{ .Site.Title }}</title>
-    <meta name="keywords" content="{{ if .IsPage }}{{ .Keywords }}{{ else }}{{ .Site.Params.keywords }}{{end}}">
-    <meta name="description" content="{{ if .IsPage }}{{ .Summary}}{{ else }}{{ .Site.Params.description }}{{end}}">
+    <title>{{ .Title }}</title>
+    <meta name="keywords" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Params.keywords }}{{end}}">
+    <meta name="description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{end}}">
     <link href="{{ .Site.BaseURL }}post/index.xml" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" >
     <link href="{{ .Site.BaseURL }}post/index.xml" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">

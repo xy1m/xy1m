@@ -1,9 +1,10 @@
 +++
+author = "zhenpeng"
 date = "2016-02-04T00:17:36-05:00"
 tags = ["leetcode","math"]
 categories =["algorithms"]
 title = "Number of Digit One"
-author="zhenpeng"
+keywords = ""
 +++
 Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.
 <!--more-->

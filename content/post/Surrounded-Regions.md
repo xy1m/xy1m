@@ -1,9 +1,10 @@
 +++
+author = "zhenpeng"
 date = "2016-02-04T00:13:52-05:00"
 tags = ["leetcode","string"]
 categories =["algorithms"]
 title = "Surrounded Regions"
-author="zhenpeng"
+keywords = ""
 +++
 Given a 2D board containing 'X' and 'O', capture all regions surrounded by 'X'.
 

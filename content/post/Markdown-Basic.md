@@ -1,12 +1,14 @@
 +++
+author = "zhenpeng"
 categories = ["tools"]
 date = "2016-03-17T09:24:23-04:00"
 tags = ["markdown"]
 title = "Markdown Basic"
-author="zhenpeng"
+keywords = ""
 +++
 > Markdown 是一种轻量级标记语言，创始人为約翰·格魯伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。[3]这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
 
+<!--more-->
 以上摘自维基百科，既然你已经看到了这篇文章，就不用过多介绍Markdown了
 [John Gruber](https://daringfireball.net/projects/markdown/basics)
 

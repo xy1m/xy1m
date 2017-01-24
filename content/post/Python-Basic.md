@@ -1,9 +1,10 @@
 +++
+author = "zhenpeng"
 categories = ["language"]
 date = "2016-03-21T14:32:43-04:00"
 tags = ["language"]
 title = "Python 2 Basic"
-author="zhenpeng"
+keywords = ""
 +++
 > 
 Python是一种简单易学，功能强大的编程语言，它有高效率的高层数据结构，简
@@ -11,6 +12,7 @@ Python是一种简单易学，功能强大的编程语言，它有高效率的�
 解释性语言的本质，使得它在大多数平台上的许多领域都是一个理想的脚本语
 言，特别适用于快速的应用程序开发。
 
+<!--more-->
 > Python语言的创造者Guido van Rossum是根据英国广播公司的节目“蟒蛇飞行马戏”命名这个语言的，并非他本人特别喜欢蛇缠起它们的长身躯碾死动物觅食
 
 ## 简介

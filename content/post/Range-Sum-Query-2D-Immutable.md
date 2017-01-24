@@ -1,9 +1,10 @@
 +++
+author = "zhenpeng"
 date = "2016-02-04T00:16:24-05:00"
 tags = ["leetcode","dynamic programming"]
 categories =["algorithms"]
 title = "Range Sum Query 2D Immutable"
-author="zhenpeng"
+keywords = ""
 +++
 Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).
 
