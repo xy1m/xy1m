@@ -1,4 +1,4 @@
-baseurl = "https://blog.excareers.com/"
+baseurl = "http://blog.excareers.com/"
 
 title = "心猿译码"
 languageCode = "zh-CN"
@@ -19,7 +19,7 @@ googleAnalytics = "UA-68632304-1"
     name = "Zhenpeng"
     homepage = "http://xy1m.github.io/"
 [sitemap]
-  changefreq = "dayly"
+  changefreq = "weekly"
   priority = 0.5
 [social]
     twitter   = ""
