@@ -1,7 +1,7 @@
-baseurl = "http://blog.excareers.com/"
+baseurl = "https://blog.excareers.com/"
 
-title = "xy1m"
-languageCode = "en-US"
+title = "心猿译码"
+languageCode = "zh-CN"
 paginate = 10
 theme = "xy1m"
 
