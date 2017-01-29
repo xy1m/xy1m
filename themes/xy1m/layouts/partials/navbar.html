@@ -17,7 +17,7 @@
                        aria-expanded="false">{{ .Site.Data.I18N.cate}}<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                        <li><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize }}">{{ $name }}</a></li>
+                        <li><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize }}/">{{ $name }}</a></li>
                         {{ end }}
                     </ul>
                 </li>

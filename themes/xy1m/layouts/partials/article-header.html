@@ -7,7 +7,7 @@
 		<li><time>{{ .Date.Format "2006-01-02 15:04:05" }}</time></li>
 		<li class="fa fa-tag"></li>
 		{{ range $i, $v := .Params.tags }}
-		<li><a class="label label-warning" href="{{ $.Site.BaseURL }}tags/{{ $v | urlize }}">{{ $v | lower }}</a></li>
+		<li><a class="label label-warning" href="{{ $.Site.BaseURL }}tags/{{ $v | urlize }}/">{{ $v | lower }}</a></li>
 		{{ end }}
 	</ul>
 </aside>
