@@ -1,8 +1,8 @@
 +++
-author = "Zhenpeng"
-categories = ["Tools"]
-date = "2017##03##10T03:16:32##08:00"
-tags = []
+author = "zhenpeng"
+categories = ["tools"]
+date = "2017-03-10T03:16:32-08:00"
+tags = ["tools","mac","terminal"]
 title = "Mac Terminal Shortcuts"
 keywords = "Mac terminal tricks and tips, useful command"
 +++
