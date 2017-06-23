@@ -1,18 +1,12 @@
 <nav>
     <ul class="pager">
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
         {{ if .Paginator.HasPrev }}
         <li class="previous"><a class="btn btn-default" href="{{.Paginator.Prev.URL}}" title="Previous"><span
                 aria-hidden="true">&larr;</span>{{ .Site.Data.I18N.pre}}</a></li>
         {{ end }}
-        {{ end }}
-        <li><label class="text-muted">Page {{ .Paginator.PageNumber}} of {{.Paginator.TotalPages}}</label>
-        <li>
-            {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-            {{ if .Paginator.HasNext }}
-        <li class="next"><a class="btn btn-default" href="{{.Paginator.Next.URL}}" title="Next">{{
-            .Site.Data.I18N.next}} <span aria-hidden="true">&rarr;</span></a></li>
-        {{ end }}
+        <li><label class="text-muted">Page {{ .Paginator.PageNumber}} of {{.Paginator.TotalPages}}</label></li>
+        {{ if .Paginator.HasNext }}
+        <li class="next"><a class="btn btn-default" href="{{.Paginator.Next.URL}}" title="Next">{{.Site.Data.I18N.next}} <span aria-hidden="true">&rarr;</span></a></li>
         {{ end }}
     </ul>
 </nav>

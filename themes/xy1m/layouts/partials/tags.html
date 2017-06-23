@@ -3,9 +3,13 @@
 		<h3 class="panel-title">{{ .Site.Data.I18N.tag}}</h3>
 	</div>
 	<div class="panel-body">
-		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-		<a class="label label-warning" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize }}/">{{ $name }}</a>
-		{{ end }}
+		<ul class="list-inline">
+			<li>
+				{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+				<a class="label label-warning" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize }}/">{{ $name }}</a>
+				{{ end }}
+			</li>
+		</ul>
 	</div>
 </div>
 <div class="panel panel-default">
