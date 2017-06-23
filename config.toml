@@ -4,6 +4,8 @@ title = "xy1m"
 languageCode = "en-us"
 paginate = 10
 theme = "xy1m"
+enableRobotsTXT=true
+disablePathToLower=false
 
 copyright = "Powered by [Hugo](http://gohugo.io)."
 disqusShortname = "excareers"

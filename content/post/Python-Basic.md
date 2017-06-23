@@ -3,7 +3,7 @@ author = "zhenpeng"
 categories = ["language"]
 date = "2016-03-21T14:32:43-04:00"
 tags = ["language"]
-title = "Python 2 Basic"
+title = "Python Basic"
 keywords = ""
 +++
 > 
