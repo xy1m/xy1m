@@ -95,9 +95,9 @@ _我是斜体_
 ```
 
 ## 图片
-![alt信息](/img/avatar.jpg "标题")
+![alt信息](/img/logo.png "标题")
 ```
-![alt信息](/img/avatar.jpg "标题")
+![alt信息](/img/logo.png "标题")
 ```
 
 ## 链接
@@ -116,7 +116,7 @@ _我是斜体_
 
 [g]:http://google.com "Google"
 [y]:http://search.yahoo.com "Yahoo serach"
-[m]:/img/avatar.jpg "mole"
+[m]:/img/logo.png "mole"
 
 ```
 [链接文字][索引id]
@@ -128,7 +128,7 @@ _我是斜体_
 
 `[g]:http://google.com "Google"`
 `[y]:http://search.yahoo.com "Yahoo serach"`
-`[m]:/img/avatar.jpg "mole"`
+`[m]:/img/logo.png "mole"`
 ```
 
 ## 自动链接
