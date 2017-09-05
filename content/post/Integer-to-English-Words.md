@@ -1,9 +1,10 @@
 +++
-author = "zhenpeng"
+title = "Integer to English Words"
 date = "2016-02-03T22:28:08-05:00"
+author = "zhenpeng"
+
 tags = ["leetcode","math","string"]
 categories =["algorithms"]
-title = "Integer to English Words"
 keywords = ""
 +++
 Convert a non-negative integer to its english words representation. Given input is guaranteed to be less than 2^31 - 1.

@@ -1,9 +1,10 @@
 +++
-author = "zhenpeng"
-categories = ["language"]
-date = "2016-03-21T14:32:43-04:00"
-tags = ["language"]
 title = "Python Basic"
+date = "2016-03-21T14:32:43-04:00"
+author = "zhenpeng"
+
+categories = ["language"]
+tags = ["language"]
 keywords = ""
 +++
 > 

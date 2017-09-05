@@ -1,9 +1,10 @@
 +++
-author = "zhenpeng"
+title = "Reverse Words in a String"
 date = "2016-02-04T00:15:13-05:00"
+author = "zhenpeng"
+
 tags = ["leetcode","string"]
 categories =["algorithms"]
-title = "Reverse Words in a String"
 keywords = ""
 +++
 Given an input string, reverse the string word by word.

@@ -1,6 +1,11 @@
 +++
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+date = {{ .Date }}
+author = ""
+
 tags = []
 categories = []
-author = ""
 keywords = ""
 +++
+
+<!-- more -->

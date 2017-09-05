@@ -5,10 +5,8 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .footer {
