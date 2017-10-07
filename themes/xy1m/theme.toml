@@ -5,14 +5,14 @@ name = "xy1m"
 license = "MIT"
 licenselink = "https://github.com/xy1m/xy1m/LICENSE.md"
 description = ""
-homepage = "http://xy1m.github.io/"
+homepage = "https://xy1m.github.io/"
 tags = ["pagination", "bootstrap","disqus","responsive","highlight","social"]
 features = ["pagination", "bootstrap","disqus","responsive","highlight","social"]
 min_version = 0.14
 
 [author]
   name = "Zhenpeng"
-  homepage = "http://xy1m.github.io/"
+  homepage = "https://xy1m.github.io/"
 
 # If porting an existing theme
 [original]

@@ -3,9 +3,9 @@ title = "Recursive And Dynamic Programming"
 date = 2017-09-05T12:40:59-07:00
 author = "zhenpeng"
 
-tags = []
-categories = []
-keywords = ""
+tags = ["algorithms"]
+categories = ["summary"]
+keywords = "Recursive Dynamic Programming"
 +++
 <!--more-->
 ## Pattern
@@ -39,7 +39,7 @@ Dynamic Programming= Recursive + Cache
 ### Fibonacci
 
 #### Recursive solution
-- Time O(2^n)
+- Runtime O(2^n)
 - Space O(1)
 
 ```
@@ -51,7 +51,7 @@ Dynamic Programming= Recursive + Cache
 ```
 
 #### DP solution
-- Time O(n)
+- Runtime O(n)
 - Space O(n)
 
 ```
@@ -65,7 +65,7 @@ Dynamic Programming= Recursive + Cache
 ```
 
 #### Iterative solution
-- Time O(n)
+- Runtime O(n)
 - Space O(1)
 
 ```
